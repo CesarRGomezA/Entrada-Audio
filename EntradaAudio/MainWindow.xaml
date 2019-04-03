@@ -1,0 +1,16 @@
+﻿<Window x:Class="EntradaAudio.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EntradaAudio"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Elegir dispositivo:" VerticalAlignment="Top"/>
+        <Button x:Name="btnIniciar" Content="Iniciar" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" Width="75" Click="btnIniciar_Click"/>
+        <ComboBox x:Name="cmbDispositivos" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" Width="774"/>
+        <Button x:Name="btnDetener" Content="Detener" HorizontalAlignment="Left" Margin="114,66,0,0" VerticalAlignment="Top" Width="75"/>
+        <Slider x:Name="sldMicrofono" HorizontalAlignment="Left" Margin="240,66,0,0" VerticalAlignment="Top" Width="200"/>
+    </Grid>
+</Window>
